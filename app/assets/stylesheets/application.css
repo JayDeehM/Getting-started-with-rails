@@ -13,3 +13,38 @@
  *= require_tree .
  *= require_self
  */
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Josefin+Sans');
+
+/*---------- main page ----------*/
+#body {
+  background-image: url("images/naturalwhite.png");
+}
+
+#header {
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+}
+
+#openblog {
+display: block;
+margin: 0px auto;
+padding: 10px 60px 10px 60px;
+text-decoration: none;
+}
+
+#openblog:hover {
+  text-decoration: none;
+}
+
+
+/*---------- show ----------*/
+#title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#content {
+  padding-top: : 20PX;
+  padding-bottom: 20px;
+}
