@@ -7,10 +7,10 @@ Basically I'm just started using ruby on rails.
 
 1. Before you can run the program, you first have to open the rails server.
   - Open gitbash terminal.
-  - Make sure you are in the "newtest" directory, if not please change your directory to newtest
+  - Make sure you are in the directory/folder where you placed the files, if not please change your directory.
   - Then type in "$ bin/rails server" or "$ rails s".
   
-2. Now that you finished establishing the server type in  "http://localhost:3000/articles" in your browser.
+2. Now that you finished establishing the server type in "http://localhost:3000/articles" in your browser.
   - The program should start to run.
   
 3. In this program, you can list articles and keep it in a database.
