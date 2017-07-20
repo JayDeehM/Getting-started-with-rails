@@ -16,32 +16,46 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Josefin+Sans');
 
 /*---------- main page ----------*/
-
+#body {
+	background-image: url("../assets/naturalwhite.png");
+	background-attachment: fixed;
+	width: 100%;
+	padding-bottom: 430px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+						
 #header {
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
-  font-size: 50px;
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	font-size: 50px;
 }
 
 #openblog {
-display: block;
-margin: 0px auto;
-padding: 10px 60px 10px 60px;
-text-decoration: none;
+	display: block;
+	margin: 0px auto;
+	padding: 10px 60px 10px 60px;
+	text-decoration: none;
 }
 
 #openblog:hover {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 
 /*---------- show ----------*/
+#head {
+	font-family: 'Indie Flower', cursive;
+	font-size: 80px;
+}
+
 #title {
-  text-transform: uppercase;
-  font-weight: bold;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
 }
 
 #content {
-  padding-top: : 20PX;
-  padding-bottom: 20px;
+	padding-top: : 20PX;
+	padding-bottom: 20px;
+	font-size: 17px;
 }
